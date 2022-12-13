@@ -8,24 +8,27 @@
 
   <body>
 
-    <div id="head">
-    <div id="s"><a href="file:///Users/mayamagavi/Desktop/UIUXPortfolio/index.html"><img src="arrow.png" alt="arrow" width=50vw height=50vh></a></div>
-    <div id="title">
-      <strong>Heng Thai Rotisserie Website</strong>
+    <div id="head"><br>
+      <div id="s"><a href="https://miscellaneousmonkey88.github.io/Portfolio/"><img src="arrow.png" alt="arrow" width=50vw height=50vh></a></div>
+      <div id="title">
+        <strong>Heng Thai Rotisserie Website </strong>
+      </div>
+  
+      <div id="subtitle">
+        Responsive Redesign
+      </div>
+      <div id="subtitle2">
+        October 2022 - CSCI1300 - HTML/CSS
+      </div><br>
     </div>
 
-    <div id="subtitle">
-      Responsive Redesign
-    </div>
-    <div id="subtitle2">
-      November 2022 - CSCI1300
-    </div>
-  
-  </div>
-</div>
+</div><br>
     <div id="txt">
-      The aim of this project was to find identify website with usability problems, redesign it, and develop a new 
-      responsive website to address these issues. This would mean making the wesbite adaptable to all devices.
+      <strong>Introduction</strong><br><br>
+      The aim of this project was to identify a website with usability problems, redesign it, and develop a new 
+      responsive website with HTML/CSS to address the issues identified in the original website. This project focused on making the 
+      wesbite adaptable to the majority of device screen sizes, people who may have lower visibility, and different hosting
+      platforms which may have different fonts and symbols available.
       </div>
 
     <div id="hdr">
@@ -41,34 +44,38 @@
       As we continue to scroll down, there is a random advertisement for Heng's oyster sauce (with no link to buy
       it), and a series of vertically arranged youtube cooking videos which make use of this sauce. To actually order
       the product, I would have to navigate to one of the sites and then find the sauce under the "product" tab in 
-      the navigation bar. This is confusing to sometone using the website and is also a poor marketing scheme.
+      the navigation bar. This could confusing to someone using the website and is also poor marketing.
       <br><br>
-      Among the errors noted by WebAIM Wave are very low contrast, very small text, and lack of alternative text.
+      I also used the WebAIM Wave software to assess the website. Among the errors noted by WebAIM Wave are very low contrast, very small text, and lack of alternative text.
       I agree that the visual color contrast is not very good, and there's nowhere that the eye naturally jumps to.
       That can also partially be attributed to small text and lack of headers, which was also noted by WebAIM Wave.
-      The website is overall very confusing and ineffective at marketing or enticing customers.
     </div>
     <div class="gallery-container">
+      <div id="block">
+        <div class="middle">Visit original Heng Thai website ></div>
       <a href="https://www.hengpvd.com/">
     <img src="myPage.png" alt="mypage">
-    <p>Click to visit original website</p>
     </a>
-    </div>
+    </div></div>
 
-
+    <br><br>
     <div id="hdr">
     <strong>Part 2: Visual Redesign</strong>
     </div>
 
 
-    <div class="gallery-container2">
-      <a href="https://www.figma.com/file/sW9zZDOsf34juyfus44zzA/Visual-Design-Style-Guide---HengPVD-Site">
+    <div class="gallery-container">
         <img src="StyleGuide.png" alt="chick_pic">
-      <p>My style guide - Click to visit in Figma</p></a>
+      <p>My Visual Design Style Guide</p>
     </div>
-    <br><br>
-    <div class="gallery-container3">
-      <br><br>
+
+    <div id="txt">
+      I decided to use the original color scheme and icons from the website, in order to keep with their theme. I also thought
+      they had a good concept, it could just be executed better. I rounded out the buttons to make them seem more "clickable", and 
+      added a honey yellow accent color to make the website more lively.
+    </div>
+
+    <div class="gallery-container">
       <div id="txtblack"><b>
       LOW FIDELITY WIREFRAMES</b>
     </div>
@@ -78,53 +85,57 @@
       <br><br>
       <img src="lofiphone.png" alt="lofi iphone">
       <br><br>
-      <img src="lofiipad.png" alt="lofi ipad">
+      <img src="lofiipad.png" alt="lofi ipad"></div>
 
+      <div id="txt">
+        In the lo fi wireframes, I worked on incorporating all of the elements of the original site while making the site much more
+        learnable. I made large colorful containers for the two locations, so the eyes were drawn to this, the main point
+        of the page. I also added more icons and suggestions of what different parts of the page are for, including explaining
+        the part where they show videos and advertise their products.
+      </div>
+
+      <div class = "gallery-container">
       <div id="txtblack"><b>
         HIGH FIDELITY WIREFRAMES</b>
       </div>
 
-      <a href="https://www.figma.com/proto/Uiw9QCtSwhbVxJv7QqNek0/Responsive-Redesign?node-id=1%3A2&scaling=scale-down-width&page-id=0%3A1">
-        <img src="hifidsktop.png" alt="chick_pic">
-      <p>My HiFi Desktop Prototype - Click to visit in Figma & experience the full page</p></a>
-
-      <div id="txt2">
-        The header will be comprised of simple text boxes.
-        <br><br>
-        I plan to accomplish the boxes for each of the locations using a flex gallery container (justify-content: center, flex-direction: row) for both locations, 
-        individual containers inside of this for TONG-D and Heng, and containers inside those for the buttons which have 
-        the images as backgrounds and significant padding so that we can see those. The overarching container
-        will be flex-wrap: wrap so that it can adjust to the mobile format.
-        <br><br>
-        I will accomplish the Oyster Sauce ad with a flexbox container which has the image as the background and a 
-        text box inside of that with significant padding on the top, right and left so we can see the background image.
-        <br><br>
-        I'll also use special divs for each of the images so I can set their sizes and then make them change as the screen
-        size changes (img{height:100%}). And, I'll use vw as my unit of size instead of pixels.
-      </div>
+      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUiw9QCtSwhbVxJv7QqNek0%2FResponsive-Redesign%3Fscaling%3Dscale-down-width%26page-id%3D0%253A1%26node-id%3D1%253A2" allowfullscreen></iframe>
 
       <br><br> <br><br>
-      <a href="https://www.figma.com/proto/Uiw9QCtSwhbVxJv7QqNek0/Responsive-Redesign?node-id=34%3A5&scaling=scale-down&page-id=13%3A53">
-        <img src="hifiphone.png" alt="chick_pic">
-      <p>My HiFi Mobile Prototype - Click to visit in Figma & experience the full page</p></a>
+      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUiw9QCtSwhbVxJv7QqNek0%2FResponsive-Redesign%3Fnode-id%3D34%253A5%26scaling%3Dcontain%26page-id%3D13%253A53" allowfullscreen></iframe>
       <br><br> <br><br>
-      <a href="https://www.figma.com/proto/Uiw9QCtSwhbVxJv7QqNek0/Responsive-Redesign?node-id=48%3A3&scaling=scale-down&page-id=48%3A2">
-        <img src="hifitablet.png" alt="chick_pic">
-      <p>My HiFi Table Prototype - Click to visit in Figma & experience the full page</p></a>
-      <br><br> <br><br>
+      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUiw9QCtSwhbVxJv7QqNek0%2FResponsive-Redesign%3Fnode-id%3D48%253A3%26scaling%3Dscale-down%26page-id%3D48%253A2" allowfullscreen></iframe>
+      <br><br> 
 
     </div>
+    <div id="txt">
+      In the hi fi wireframes, I continued to alter the design, adding many more images of the food from Heng. I found that 
+      without the pictures the website was a little one dimensional and did not make the user feel hungry or pulled in.
+      I also added some color to draw the eye to the warning at the top of the screen.
+    </div>
+
     <div id="hdr">
     <strong>Part 3: Responsive Redesign</strong>
     </div>
 
     <div class="gallery-container">
+      <div id="block">
+      <div class="middle">Visit my redesigned website ></div>
       <a href="https://miscellaneousmonkey88.github.io/HengThaiSite/">
     <img src="mysite.png" alt="mypage">
-    <p>Click to visit my redesigned website</p>
-    </a>
+    </a></div>
+    </div><br><br>
+    <div id="txt">
+      Here is the final iteration, created with HTML and CSS! I found that bringing my design to life was much harder than I anticipated, but overall
+      I felt like this reactive site was pretty true to my hi fi prototype!
     </div>
-    <br><br><br><br><br><br>
+    <div id="txt">
+      <strong>Takeaways</strong><br><br>
+      Through this project, I learned practices in HTML/CSS that are more accessible and can be used by a much larger variety of
+      people, which is a super important skill in design. I also got the chance to go through the design process and create
+      many iterations until I got to one, clean final design.
+    </div>
+    <br><br><br><br>
   </body>
 
 </html>
